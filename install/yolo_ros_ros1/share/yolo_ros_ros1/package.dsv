@@ -1,9 +1,0 @@
-source;share/yolo_ros_ros1/hook/pythonpath.ps1
-source;share/yolo_ros_ros1/hook/pythonpath.dsv
-source;share/yolo_ros_ros1/hook/pythonpath.sh
-source;share/yolo_ros_ros1/hook/ament_prefix_path.ps1
-source;share/yolo_ros_ros1/hook/ament_prefix_path.dsv
-source;share/yolo_ros_ros1/hook/ament_prefix_path.sh
-source;../../build/yolo_ros_ros1/share/yolo_ros_ros1/hook/pythonpath_develop.ps1
-source;../../build/yolo_ros_ros1/share/yolo_ros_ros1/hook/pythonpath_develop.dsv
-source;../../build/yolo_ros_ros1/share/yolo_ros_ros1/hook/pythonpath_develop.sh

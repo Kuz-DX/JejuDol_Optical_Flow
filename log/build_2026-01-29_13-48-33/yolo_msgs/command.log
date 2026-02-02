@@ -1,6 +1,0 @@
-Invoking command in '/home/kuzdx/optical_flow/build/yolo_msgs': /usr/bin/cmake /home/kuzdx/optical_flow/src/yolo_msgs -DCMAKE_BUILD_TYPE=Release -DPython3_EXECUTABLE=/usr/bin/python3 -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/kuzdx/optical_flow/install/yolo_msgs
-Invoked command in '/home/kuzdx/optical_flow/build/yolo_msgs' returned '0': /usr/bin/cmake /home/kuzdx/optical_flow/src/yolo_msgs -DCMAKE_BUILD_TYPE=Release -DPython3_EXECUTABLE=/usr/bin/python3 -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/kuzdx/optical_flow/install/yolo_msgs
-Invoking command in '/home/kuzdx/optical_flow/build/yolo_msgs': /usr/bin/cmake --build /home/kuzdx/optical_flow/build/yolo_msgs -- -j16 -l16
-Invoked command in '/home/kuzdx/optical_flow/build/yolo_msgs' returned '0': /usr/bin/cmake --build /home/kuzdx/optical_flow/build/yolo_msgs -- -j16 -l16
-Invoking command in '/home/kuzdx/optical_flow/build/yolo_msgs': /usr/bin/cmake --install /home/kuzdx/optical_flow/build/yolo_msgs
-Invoked command in '/home/kuzdx/optical_flow/build/yolo_msgs' returned '0': /usr/bin/cmake --install /home/kuzdx/optical_flow/build/yolo_msgs
