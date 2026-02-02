@@ -1,1 +1,0 @@
-/home/kuzdx/optical_flow/src/yolo_ros_ros1/setup.py
