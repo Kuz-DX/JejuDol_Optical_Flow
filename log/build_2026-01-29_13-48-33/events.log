@@ -1,0 +1,764 @@
+[0.000000] (-) TimerEvent: {}
+[0.000639] (dynamic-obstacle) JobQueued: {'identifier': 'dynamic-obstacle', 'dependencies': OrderedDict()}
+[0.000745] (yolo_msgs) JobQueued: {'identifier': 'yolo_msgs', 'dependencies': OrderedDict()}
+[0.000774] (yolo_ros_ros1) JobQueued: {'identifier': 'yolo_ros_ros1', 'dependencies': OrderedDict([('yolo_msgs', '/home/kuzdx/optical_flow/install/yolo_msgs')])}
+[0.000803] (yolo_msgs) JobStarted: {'identifier': 'yolo_msgs'}
+[0.004955] (dynamic-obstacle) JobStarted: {'identifier': 'dynamic-obstacle'}
+[0.009102] (yolo_msgs) JobProgress: {'identifier': 'yolo_msgs', 'progress': 'cmake'}
+[0.009476] (yolo_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/kuzdx/optical_flow/src/yolo_msgs', '-DCMAKE_BUILD_TYPE=Release', '-DPython3_EXECUTABLE=/usr/bin/python3', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCATKIN_SYMLINK_INSTALL=ON', '-DCMAKE_INSTALL_PREFIX=/home/kuzdx/optical_flow/install/yolo_msgs'], 'cwd': '/home/kuzdx/optical_flow/build/yolo_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', ''), ('LANGUAGE', 'ko:en'), ('USER', 'kuzdx'), ('LC_TIME', 'ko_KR.UTF-8'), ('ROS_PACKAGE_PATH', '/home/kuzdx/optical_flow/install/yolo_msgs/share'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kuzdx/optical_flow/install/yolo_msgs/lib:/usr/local/cuda-11.8/lib64:/usr/local/cuda-11.8/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kuzdx'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '0'), ('TERM_PROGRAM_VERSION', '1.108.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1262'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1583'), ('BUNDLED_DEBUGPY_PATH', '/home/kuzdx/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('_CONDA_ROOT', '/home/kuzdx/anaconda3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4067'), ('COLCON_PREFIX_PATH', '/home/kuzdx/optical_flow/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'kuzdx'), ('JOURNAL_STREAM', '8:4918'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/kuzdx/optical_flow/install/yolo_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/kuzdx/optical_flow/install/yolo_msgs/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kuzdx'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda-11.8/bin:/home/kuzdx/.local/bin:/usr/local/cuda-11.8/bin:/home/kuzdx/anaconda3/condabin:/opt/ros/humble/bin:/home/kuzdx/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/kuzdx/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/KuzDX-KAI:@/tmp/.ICE-unix/1552,unix/KuzDX-KAI:/tmp/.ICE-unix/1552'), ('INVOCATION_ID', '40c87437d4494839a881bdb11e3f44bd'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/kuzdx/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-e3e8f2cda1fe3be0.txt'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/kuzdx/.config/Code/User/workspaceStorage/6ae2719cc9342cc64d00ec195b91aa2b/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f18ea83cff.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/kuzdx/optical_flow/install/yolo_ros_ros1:/home/kuzdx/optical_flow/install/dynamic-obstacle:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/kuzdx/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', ''), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('_CONDA_EXE', '/home/kuzdx/anaconda3/bin/conda'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kuzdx/optical_flow/build/yolo_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/kuzdx/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kuzdx/optical_flow/build/yolo_ros_ros1:/home/kuzdx/optical_flow/install/yolo_ros_ros1/lib/python3.10/site-packages:/home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages:/home/kuzdx/optical_flow/build/dynamic-obstacle:/home/kuzdx/optical_flow/install/dynamic-obstacle/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('CONDA_PREFIX', ''), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/kuzdx/optical_flow/install/yolo_msgs')]), 'shell': False}
+[0.068657] (yolo_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099793] (-) TimerEvent: {}
+[0.126907] (yolo_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.134724] (yolo_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199910] (-) TimerEvent: {}
+[0.217842] (yolo_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.224614] (yolo_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.224843] (yolo_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.225104] (yolo_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.227708] (yolo_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.300032] (-) TimerEvent: {}
+[0.315350] (yolo_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.323063] (yolo_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.323282] (yolo_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.323636] (yolo_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.326130] (yolo_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.400118] (-) TimerEvent: {}
+[0.455862] (yolo_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.500214] (-) TimerEvent: {}
+[0.534665] (yolo_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.537183] (yolo_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.543098] (yolo_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.562595] (dynamic-obstacle) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/kuzdx/optical_flow/build/dynamic-obstacle/build', '--no-deps', 'symlink_data'], 'cwd': '/home/kuzdx/optical_flow/build/dynamic-obstacle', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '', 'LANGUAGE': 'ko:en', 'USER': 'kuzdx', 'LC_TIME': 'ko_KR.UTF-8', 'ROS_PACKAGE_PATH': '/home/kuzdx/optical_flow/install/yolo_msgs/share', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/kuzdx/optical_flow/install/yolo_msgs/lib:/usr/local/cuda-11.8/lib64:/usr/local/cuda-11.8/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/kuzdx', 'CHROME_DESKTOP': 'code.desktop', 'CONDA_SHLVL': '0', 'TERM_PROGRAM_VERSION': '1.108.1', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'ko_KR.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1262', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '1583', 'BUNDLED_DEBUGPY_PATH': '/home/kuzdx/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', '_CONDA_ROOT': '/home/kuzdx/anaconda3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4067', 'COLCON_PREFIX_PATH': '/home/kuzdx/optical_flow/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'kuzdx', 'JOURNAL_STREAM': '8:4918', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/kuzdx/optical_flow/install/yolo_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/kuzdx/optical_flow/install/yolo_msgs/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kuzdx', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'FC_FONTATIONS': '1', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/usr/local/cuda-11.8/bin:/home/kuzdx/.local/bin:/usr/local/cuda-11.8/bin:/home/kuzdx/anaconda3/condabin:/opt/ros/humble/bin:/home/kuzdx/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/kuzdx/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/KuzDX-KAI:@/tmp/.ICE-unix/1552,unix/KuzDX-KAI:/tmp/.ICE-unix/1552', 'INVOCATION_ID': '40c87437d4494839a881bdb11e3f44bd', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/kuzdx/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-e3e8f2cda1fe3be0.txt', 'LANG': 'ko_KR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'PYTHONSTARTUP': '/home/kuzdx/.config/Code/User/workspaceStorage/6ae2719cc9342cc64d00ec195b91aa2b/ms-python.python/pythonrc.py', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-f18ea83cff.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/kuzdx/optical_flow/install/yolo_ros_ros1:/home/kuzdx/optical_flow/install/dynamic-obstacle:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/kuzdx/anaconda3/bin/python', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': '', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', '_CONDA_EXE': '/home/kuzdx/anaconda3/bin/conda', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kuzdx/optical_flow/build/dynamic-obstacle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/kuzdx/anaconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kuzdx/optical_flow/build/dynamic-obstacle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kuzdx/optical_flow/install/dynamic-obstacle/lib/python3.10/site-packages:/home/kuzdx/optical_flow/build/yolo_ros_ros1:/home/kuzdx/optical_flow/install/yolo_ros_ros1/lib/python3.10/site-packages:/home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages:/home/kuzdx/optical_flow/build/dynamic-obstacle:/home/kuzdx/optical_flow/install/dynamic-obstacle/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'CONDA_PREFIX': '', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/kuzdx/optical_flow/install/yolo_msgs'}, 'shell': False}
+[0.578295] (yolo_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.600287] (-) TimerEvent: {}
+[0.607708] (yolo_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.700415] (-) TimerEvent: {}
+[0.789262] (dynamic-obstacle) StdoutLine: {'line': b'running develop\n'}
+[0.800484] (-) TimerEvent: {}
+[0.900724] (-) TimerEvent: {}
+[0.938570] (yolo_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.940104] (dynamic-obstacle) StdoutLine: {'line': b'running egg_info\n'}
+[0.940285] (dynamic-obstacle) StdoutLine: {'line': b'creating dynamic_obstacle.egg-info\n'}
+[0.940513] (dynamic-obstacle) StdoutLine: {'line': b'writing dynamic_obstacle.egg-info/PKG-INFO\n'}
+[0.940697] (dynamic-obstacle) StdoutLine: {'line': b'writing dependency_links to dynamic_obstacle.egg-info/dependency_links.txt\n'}
+[0.940815] (dynamic-obstacle) StdoutLine: {'line': b'writing entry points to dynamic_obstacle.egg-info/entry_points.txt\n'}
+[0.940933] (dynamic-obstacle) StdoutLine: {'line': b'writing requirements to dynamic_obstacle.egg-info/requires.txt\n'}
+[0.941054] (dynamic-obstacle) StdoutLine: {'line': b'writing top-level names to dynamic_obstacle.egg-info/top_level.txt\n'}
+[0.941222] (dynamic-obstacle) StdoutLine: {'line': b"writing manifest file 'dynamic_obstacle.egg-info/SOURCES.txt'\n"}
+[0.941964] (dynamic-obstacle) StdoutLine: {'line': b"reading manifest file 'dynamic_obstacle.egg-info/SOURCES.txt'\n"}
+[0.942410] (dynamic-obstacle) StdoutLine: {'line': b"writing manifest file 'dynamic_obstacle.egg-info/SOURCES.txt'\n"}
+[0.943349] (dynamic-obstacle) StdoutLine: {'line': b'running build_ext\n'}
+[0.943542] (dynamic-obstacle) StdoutLine: {'line': b'Creating /home/kuzdx/optical_flow/install/dynamic-obstacle/lib/python3.10/site-packages/dynamic-obstacle.egg-link (link to .)\n'}
+[0.943965] (dynamic-obstacle) StdoutLine: {'line': b'\n'}
+[0.944076] (dynamic-obstacle) StdoutLine: {'line': b'Installed /home/kuzdx/optical_flow/build/dynamic-obstacle\n'}
+[0.944228] (dynamic-obstacle) StdoutLine: {'line': b'running symlink_data\n'}
+[0.944414] (dynamic-obstacle) StdoutLine: {'line': b'creating /home/kuzdx/optical_flow/install/dynamic-obstacle/share/ament_index\n'}
+[0.944526] (dynamic-obstacle) StdoutLine: {'line': b'creating /home/kuzdx/optical_flow/install/dynamic-obstacle/share/ament_index/resource_index\n'}
+[0.944617] (dynamic-obstacle) StdoutLine: {'line': b'creating /home/kuzdx/optical_flow/install/dynamic-obstacle/share/ament_index/resource_index/packages\n'}
+[0.944707] (dynamic-obstacle) StdoutLine: {'line': b'symbolically linking /home/kuzdx/optical_flow/build/dynamic-obstacle/resource/dynamic-obstacle -> /home/kuzdx/optical_flow/install/dynamic-obstacle/share/ament_index/resource_index/packages\n'}
+[0.944798] (dynamic-obstacle) StdoutLine: {'line': b'symbolically linking /home/kuzdx/optical_flow/build/dynamic-obstacle/package.xml -> /home/kuzdx/optical_flow/install/dynamic-obstacle/share/dynamic-obstacle\n'}
+[0.965923] (dynamic-obstacle) CommandEnded: {'returncode': 0}
+[0.975968] (dynamic-obstacle) JobEnded: {'identifier': 'dynamic-obstacle', 'rc': 0}
+[1.000815] (-) TimerEvent: {}
+[1.101037] (-) TimerEvent: {}
+[1.174585] (yolo_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.201108] (-) TimerEvent: {}
+[1.301343] (-) TimerEvent: {}
+[1.401630] (-) TimerEvent: {}
+[1.485556] (yolo_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.501709] (-) TimerEvent: {}
+[1.508522] (yolo_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.511334] (yolo_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.535454] (yolo_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.535655] (yolo_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.535745] (yolo_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.535825] (yolo_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.554750] (yolo_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.601804] (-) TimerEvent: {}
+[1.618465] (yolo_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.665800] (yolo_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[1.667774] (yolo_msgs) StderrLine: {'line': b'\x1b[33mCMake Warning:\n'}
+[1.667889] (yolo_msgs) StderrLine: {'line': b'  Manually-specified variables were not used by the project:\n'}
+[1.667961] (yolo_msgs) StderrLine: {'line': b'\n'}
+[1.668029] (yolo_msgs) StderrLine: {'line': b'    CATKIN_INSTALL_INTO_PREFIX_ROOT\n'}
+[1.668096] (yolo_msgs) StderrLine: {'line': b'    CATKIN_SYMLINK_INSTALL\n'}
+[1.668162] (yolo_msgs) StderrLine: {'line': b'\n'}
+[1.668230] (yolo_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[1.677424] (yolo_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/kuzdx/optical_flow/build/yolo_msgs\n'}
+[1.684525] (yolo_msgs) CommandEnded: {'returncode': 0}
+[1.685195] (yolo_msgs) JobProgress: {'identifier': 'yolo_msgs', 'progress': 'build'}
+[1.686416] (yolo_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kuzdx/optical_flow/build/yolo_msgs', '--', '-j16', '-l16'], 'cwd': '/home/kuzdx/optical_flow/build/yolo_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', ''), ('LANGUAGE', 'ko:en'), ('USER', 'kuzdx'), ('LC_TIME', 'ko_KR.UTF-8'), ('ROS_PACKAGE_PATH', '/home/kuzdx/optical_flow/install/yolo_msgs/share'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kuzdx/optical_flow/install/yolo_msgs/lib:/usr/local/cuda-11.8/lib64:/usr/local/cuda-11.8/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kuzdx'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '0'), ('TERM_PROGRAM_VERSION', '1.108.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1262'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1583'), ('BUNDLED_DEBUGPY_PATH', '/home/kuzdx/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('_CONDA_ROOT', '/home/kuzdx/anaconda3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4067'), ('COLCON_PREFIX_PATH', '/home/kuzdx/optical_flow/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'kuzdx'), ('JOURNAL_STREAM', '8:4918'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/kuzdx/optical_flow/install/yolo_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/kuzdx/optical_flow/install/yolo_msgs/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kuzdx'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda-11.8/bin:/home/kuzdx/.local/bin:/usr/local/cuda-11.8/bin:/home/kuzdx/anaconda3/condabin:/opt/ros/humble/bin:/home/kuzdx/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/kuzdx/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/KuzDX-KAI:@/tmp/.ICE-unix/1552,unix/KuzDX-KAI:/tmp/.ICE-unix/1552'), ('INVOCATION_ID', '40c87437d4494839a881bdb11e3f44bd'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/kuzdx/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-e3e8f2cda1fe3be0.txt'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/kuzdx/.config/Code/User/workspaceStorage/6ae2719cc9342cc64d00ec195b91aa2b/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f18ea83cff.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/kuzdx/optical_flow/install/yolo_ros_ros1:/home/kuzdx/optical_flow/install/dynamic-obstacle:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/kuzdx/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', ''), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('_CONDA_EXE', '/home/kuzdx/anaconda3/bin/conda'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kuzdx/optical_flow/build/yolo_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/kuzdx/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kuzdx/optical_flow/build/yolo_ros_ros1:/home/kuzdx/optical_flow/install/yolo_ros_ros1/lib/python3.10/site-packages:/home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages:/home/kuzdx/optical_flow/build/dynamic-obstacle:/home/kuzdx/optical_flow/install/dynamic-obstacle/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('CONDA_PREFIX', ''), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/kuzdx/optical_flow/install/yolo_msgs')]), 'shell': False}
+[1.701880] (-) TimerEvent: {}
+[1.733191] (yolo_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.744594] (yolo_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.753117] (yolo_msgs) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_yolo_msgs\n'}
+[1.801987] (-) TimerEvent: {}
+[1.902271] (-) TimerEvent: {}
+[1.984387] (yolo_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[1.984665] (yolo_msgs) StdoutLine: {'line': b'creating yolo_msgs.egg-info\n'}
+[1.984803] (yolo_msgs) StdoutLine: {'line': b'writing yolo_msgs.egg-info/PKG-INFO\n'}
+[1.984927] (yolo_msgs) StdoutLine: {'line': b'writing dependency_links to yolo_msgs.egg-info/dependency_links.txt\n'}
+[1.985043] (yolo_msgs) StdoutLine: {'line': b'writing top-level names to yolo_msgs.egg-info/top_level.txt\n'}
+[1.985207] (yolo_msgs) StdoutLine: {'line': b"writing manifest file 'yolo_msgs.egg-info/SOURCES.txt'\n"}
+[1.986699] (yolo_msgs) StdoutLine: {'line': b"reading manifest file 'yolo_msgs.egg-info/SOURCES.txt'\n"}
+[1.987054] (yolo_msgs) StdoutLine: {'line': b"writing manifest file 'yolo_msgs.egg-info/SOURCES.txt'\n"}
+[2.002394] (-) TimerEvent: {}
+[2.009592] (yolo_msgs) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_build_yolo_msgs_egg\n'}
+[2.102494] (-) TimerEvent: {}
+[2.202780] (-) TimerEvent: {}
+[2.303074] (-) TimerEvent: {}
+[2.403376] (-) TimerEvent: {}
+[2.503648] (-) TimerEvent: {}
+[2.603901] (-) TimerEvent: {}
+[2.704420] (-) TimerEvent: {}
+[2.751017] (yolo_msgs) StdoutLine: {'line': b'[  1%] Built target yolo_msgs__cpp\n'}
+[2.761998] (yolo_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.763263] (yolo_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.764292] (yolo_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.806456] (-) TimerEvent: {}
+[2.877530] (yolo_msgs) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolo_msgs/msg/detail/key_point2_d_array__functions.c.o\x1b[0m\n'}
+[2.877758] (yolo_msgs) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolo_msgs/msg/detail/key_point2_d__functions.c.o\x1b[0m\n'}
+[2.877844] (yolo_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolo_msgs/msg/detail/key_point3_d_array__functions.c.o\x1b[0m\n'}
+[2.877925] (yolo_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolo_msgs/msg/detail/point2_d__functions.c.o\x1b[0m\n'}
+[2.878006] (yolo_msgs) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolo_msgs/msg/detail/mask__functions.c.o\x1b[0m\n'}
+[2.878088] (yolo_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolo_msgs/msg/detail/key_point3_d__functions.c.o\x1b[0m\n'}
+[2.878175] (yolo_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolo_msgs/msg/detail/detection__functions.c.o\x1b[0m\n'}
+[2.878407] (yolo_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolo_msgs/msg/detail/detection_array__functions.c.o\x1b[0m\n'}
+[2.878518] (yolo_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolo_msgs/msg/detail/pose2_d__functions.c.o\x1b[0m\n'}
+[2.878587] (yolo_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolo_msgs/msg/detail/bounding_box2_d__functions.c.o\x1b[0m\n'}
+[2.879165] (yolo_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolo_msgs/msg/detail/bounding_box3_d__functions.c.o\x1b[0m\n'}
+[2.881571] (yolo_msgs) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolo_msgs/srv/detail/set_classes__functions.c.o\x1b[0m\n'}
+[2.884563] (yolo_msgs) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolo_msgs/msg/detail/vector2__functions.c.o\x1b[0m\n'}
+[2.907427] (-) TimerEvent: {}
+[3.008043] (-) TimerEvent: {}
+[3.026682] (yolo_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32m\x1b[1mLinking C shared library libyolo_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[3.072852] (yolo_msgs) StdoutLine: {'line': b'[ 14%] Built target yolo_msgs__rosidl_generator_c\n'}
+[3.083689] (yolo_msgs) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[3.083866] (yolo_msgs) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.084565] (yolo_msgs) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.108138] (-) TimerEvent: {}
+[3.208417] (-) TimerEvent: {}
+[3.308687] (-) TimerEvent: {}
+[3.408977] (-) TimerEvent: {}
+[3.509267] (-) TimerEvent: {}
+[3.562415] (yolo_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolo_msgs/msg/detection_array__type_support.cpp.o\x1b[0m\n'}
+[3.562622] (yolo_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolo_msgs/msg/point2_d__type_support.cpp.o\x1b[0m\n'}
+[3.562697] (yolo_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolo_msgs/msg/key_point2_d__type_support.cpp.o\x1b[0m\n'}
+[3.562772] (yolo_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolo_msgs/msg/key_point2_d_array__type_support.cpp.o\x1b[0m\n'}
+[3.562841] (yolo_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolo_msgs/msg/key_point3_d__type_support.cpp.o\x1b[0m\n'}
+[3.562953] (yolo_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolo_msgs/msg/key_point3_d_array__type_support.cpp.o\x1b[0m\n'}
+[3.563540] (yolo_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolo_msgs/msg/mask__type_support.cpp.o\x1b[0m\n'}
+[3.563633] (yolo_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolo_msgs/msg/detection__type_support.cpp.o\x1b[0m\n'}
+[3.563705] (yolo_msgs) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolo_msgs/msg/bounding_box3_d__type_support.cpp.o\x1b[0m\n'}
+[3.563784] (yolo_msgs) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolo_msgs/msg/pose2_d__type_support.cpp.o\x1b[0m\n'}
+[3.563857] (yolo_msgs) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolo_msgs/msg/bounding_box2_d__type_support.cpp.o\x1b[0m\n'}
+[3.609386] (-) TimerEvent: {}
+[3.712537] (-) TimerEvent: {}
+[3.812877] (-) TimerEvent: {}
+[3.909111] (yolo_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolo_msgs/msg/vector2__type_support.cpp.o\x1b[0m\n'}
+[3.909314] (yolo_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolo_msgs/srv/set_classes__type_support.cpp.o\x1b[0m\n'}
+[3.912972] (-) TimerEvent: {}
+[3.935244] (yolo_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolo_msgs/msg/detail/detection__type_support.cpp.o\x1b[0m\n'}
+[3.935447] (yolo_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolo_msgs/msg/detail/detection_array__type_support.cpp.o\x1b[0m\n'}
+[3.935505] (yolo_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolo_msgs/msg/detail/bounding_box3_d__type_support.cpp.o\x1b[0m\n'}
+[3.935550] (yolo_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolo_msgs/msg/detail/key_point2_d_array__type_support.cpp.o\x1b[0m\n'}
+[3.935592] (yolo_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolo_msgs/msg/detail/key_point3_d__type_support.cpp.o\x1b[0m\n'}
+[3.935642] (yolo_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolo_msgs/msg/detail/bounding_box2_d__type_support.cpp.o\x1b[0m\n'}
+[3.935688] (yolo_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolo_msgs/msg/detail/key_point2_d__type_support.cpp.o\x1b[0m\n'}
+[3.936380] (yolo_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolo_msgs/msg/detail/key_point3_d_array__type_support.cpp.o\x1b[0m\n'}
+[3.936945] (yolo_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolo_msgs/msg/detail/mask__type_support.cpp.o\x1b[0m\n'}
+[3.944059] (yolo_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolo_msgs/msg/detail/point2_d__type_support.cpp.o\x1b[0m\n'}
+[3.955121] (yolo_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolo_msgs/msg/detail/dds_fastrtps/bounding_box2_d__type_support.cpp.o\x1b[0m\n'}
+[4.013147] (-) TimerEvent: {}
+[4.114446] (-) TimerEvent: {}
+[4.124444] (yolo_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolo_msgs/msg/bounding_box2_d__type_support.cpp.o\x1b[0m\n'}
+[4.169434] (yolo_msgs) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolo_msgs/msg/bounding_box3_d__type_support.cpp.o\x1b[0m\n'}
+[4.215392] (-) TimerEvent: {}
+[4.216132] (yolo_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolo_msgs/msg/detection__type_support.cpp.o\x1b[0m\n'}
+[4.266274] (yolo_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking CXX shared library libyolo_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[4.266541] (yolo_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolo_msgs/msg/detail/pose2_d__type_support.cpp.o\x1b[0m\n'}
+[4.271020] (yolo_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolo_msgs/msg/detection_array__type_support.cpp.o\x1b[0m\n'}
+[4.315978] (yolo_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolo_msgs/msg/key_point2_d__type_support.cpp.o\x1b[0m\n'}
+[4.316193] (-) TimerEvent: {}
+[4.330646] (yolo_msgs) StdoutLine: {'line': b'[ 42%] Built target yolo_msgs__rosidl_typesupport_cpp\n'}
+[4.352723] (yolo_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolo_msgs/msg/key_point2_d_array__type_support.cpp.o\x1b[0m\n'}
+[4.363426] (yolo_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolo_msgs/msg/detail/dds_fastrtps/bounding_box3_d__type_support.cpp.o\x1b[0m\n'}
+[4.399457] (yolo_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolo_msgs/msg/key_point3_d__type_support.cpp.o\x1b[0m\n'}
+[4.404268] (yolo_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolo_msgs/msg/detail/vector2__type_support.cpp.o\x1b[0m\n'}
+[4.409382] (yolo_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolo_msgs/msg/detail/dds_fastrtps/detection__type_support.cpp.o\x1b[0m\n'}
+[4.416326] (-) TimerEvent: {}
+[4.417230] (yolo_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolo_msgs/msg/detail/dds_fastrtps/detection_array__type_support.cpp.o\x1b[0m\n'}
+[4.428183] (yolo_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolo_msgs/msg/detail/bounding_box2_d__type_support.c.o\x1b[0m\n'}
+[4.428479] (yolo_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolo_msgs/msg/key_point3_d_array__type_support.cpp.o\x1b[0m\n'}
+[4.443586] (yolo_msgs) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolo_msgs/msg/mask__type_support.cpp.o\x1b[0m\n'}
+[4.443802] (yolo_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolo_msgs/msg/detail/dds_fastrtps/key_point2_d__type_support.cpp.o\x1b[0m\n'}
+[4.450290] (yolo_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolo_msgs/msg/detail/dds_fastrtps/key_point2_d_array__type_support.cpp.o\x1b[0m\n'}
+[4.452190] (yolo_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolo_msgs/msg/detail/bounding_box3_d__type_support.c.o\x1b[0m\n'}
+[4.462580] (yolo_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolo_msgs/msg/point2_d__type_support.cpp.o\x1b[0m\n'}
+[4.468591] (yolo_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolo_msgs/msg/detail/detection__type_support.c.o\x1b[0m\n'}
+[4.485922] (yolo_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolo_msgs/msg/detail/detection_array__type_support.c.o\x1b[0m\n'}
+[4.486160] (yolo_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolo_msgs/srv/detail/set_classes__type_support.cpp.o\x1b[0m\n'}
+[4.498152] (yolo_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolo_msgs/msg/detail/dds_fastrtps/key_point3_d__type_support.cpp.o\x1b[0m\n'}
+[4.499648] (yolo_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolo_msgs/msg/detail/key_point2_d__type_support.c.o\x1b[0m\n'}
+[4.502668] (yolo_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolo_msgs/msg/detail/bounding_box2_d__type_support_c.cpp.o\x1b[0m\n'}
+[4.505414] (yolo_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolo_msgs/msg/detail/key_point2_d_array__type_support.c.o\x1b[0m\n'}
+[4.505609] (yolo_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolo_msgs/msg/pose2_d__type_support.cpp.o\x1b[0m\n'}
+[4.516439] (-) TimerEvent: {}
+[4.527868] (yolo_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding C object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolo_msgs/msg/detail/key_point3_d__type_support.c.o\x1b[0m\n'}
+[4.546519] (yolo_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolo_msgs/msg/vector2__type_support.cpp.o\x1b[0m\n'}
+[4.548880] (yolo_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolo_msgs/msg/detail/key_point3_d_array__type_support.c.o\x1b[0m\n'}
+[4.553189] (yolo_msgs) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding C object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolo_msgs/msg/detail/mask__type_support.c.o\x1b[0m\n'}
+[4.562442] (yolo_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding C object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolo_msgs/msg/detail/point2_d__type_support.c.o\x1b[0m\n'}
+[4.581392] (yolo_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding C object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolo_msgs/msg/detail/pose2_d__type_support.c.o\x1b[0m\n'}
+[4.585885] (yolo_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolo_msgs/srv/set_classes__type_support.cpp.o\x1b[0m\n'}
+[4.608933] (yolo_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding C object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolo_msgs/msg/detail/vector2__type_support.c.o\x1b[0m\n'}
+[4.609162] (yolo_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolo_msgs/msg/detail/dds_fastrtps/key_point3_d_array__type_support.cpp.o\x1b[0m\n'}
+[4.615024] (yolo_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolo_msgs/msg/detail/bounding_box3_d__type_support_c.cpp.o\x1b[0m\n'}
+[4.617280] (-) TimerEvent: {}
+[4.632296] (yolo_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libyolo_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[4.639705] (yolo_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding C object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolo_msgs/srv/detail/set_classes__type_support.c.o\x1b[0m\n'}
+[4.661487] (yolo_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolo_msgs/msg/detail/dds_fastrtps/mask__type_support.cpp.o\x1b[0m\n'}
+[4.699441] (yolo_msgs) StdoutLine: {'line': b'[ 68%] Built target yolo_msgs__rosidl_typesupport_c\n'}
+[4.703532] (yolo_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking C shared library libyolo_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.711080] (yolo_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolo_msgs/msg/detail/dds_fastrtps/point2_d__type_support.cpp.o\x1b[0m\n'}
+[4.716670] (yolo_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolo_msgs/msg/detail/dds_fastrtps/pose2_d__type_support.cpp.o\x1b[0m\n'}
+[4.718268] (-) TimerEvent: {}
+[4.723434] (yolo_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolo_msgs/msg/detail/detection__type_support_c.cpp.o\x1b[0m\n'}
+[4.756423] (yolo_msgs) StdoutLine: {'line': b'[ 72%] Built target yolo_msgs__rosidl_typesupport_introspection_c\n'}
+[4.768175] (yolo_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolo_msgs/msg/detail/detection_array__type_support_c.cpp.o\x1b[0m\n'}
+[4.818411] (-) TimerEvent: {}
+[4.842464] (yolo_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolo_msgs/msg/detail/key_point2_d__type_support_c.cpp.o\x1b[0m\n'}
+[4.870874] (yolo_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolo_msgs/msg/detail/key_point2_d_array__type_support_c.cpp.o\x1b[0m\n'}
+[4.918521] (-) TimerEvent: {}
+[4.935714] (yolo_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolo_msgs/msg/detail/key_point3_d__type_support_c.cpp.o\x1b[0m\n'}
+[4.939076] (yolo_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolo_msgs/msg/detail/key_point3_d_array__type_support_c.cpp.o\x1b[0m\n'}
+[4.958447] (yolo_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolo_msgs/msg/detail/mask__type_support_c.cpp.o\x1b[0m\n'}
+[5.018639] (-) TimerEvent: {}
+[5.023127] (yolo_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolo_msgs/msg/detail/dds_fastrtps/vector2__type_support.cpp.o\x1b[0m\n'}
+[5.029653] (yolo_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolo_msgs/msg/detail/point2_d__type_support_c.cpp.o\x1b[0m\n'}
+[5.040502] (yolo_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX shared library libyolo_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[5.067327] (yolo_msgs) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolo_msgs/srv/detail/dds_fastrtps/set_classes__type_support.cpp.o\x1b[0m\n'}
+[5.097651] (yolo_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolo_msgs/msg/detail/pose2_d__type_support_c.cpp.o\x1b[0m\n'}
+[5.120455] (-) TimerEvent: {}
+[5.183173] (yolo_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolo_msgs/msg/detail/vector2__type_support_c.cpp.o\x1b[0m\n'}
+[5.199178] (yolo_msgs) StdoutLine: {'line': b'[ 82%] Built target yolo_msgs__rosidl_typesupport_introspection_cpp\n'}
+[5.210058] (yolo_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolo_msgs/srv/detail/set_classes__type_support_c.cpp.o\x1b[0m\n'}
+[5.220567] (-) TimerEvent: {}
+[5.321249] (-) TimerEvent: {}
+[5.421609] (-) TimerEvent: {}
+[5.521926] (-) TimerEvent: {}
+[5.531890] (yolo_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking CXX shared library libyolo_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[5.549948] (yolo_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking CXX shared library libyolo_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[5.605418] (yolo_msgs) StdoutLine: {'line': b'[ 84%] Built target yolo_msgs__rosidl_typesupport_fastrtps_c\n'}
+[5.622006] (-) TimerEvent: {}
+[5.625083] (yolo_msgs) StdoutLine: {'line': b'[ 84%] Built target yolo_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[5.649420] (yolo_msgs) StdoutLine: {'line': b'[ 84%] Built target yolo_msgs\n'}
+[5.670005] (yolo_msgs) StdoutLine: {'line': b'[ 85%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[5.722095] (-) TimerEvent: {}
+[5.822382] (-) TimerEvent: {}
+[5.922685] (-) TimerEvent: {}
+[6.022992] (-) TimerEvent: {}
+[6.123302] (-) TimerEvent: {}
+[6.223620] (-) TimerEvent: {}
+[6.323932] (-) TimerEvent: {}
+[6.424227] (-) TimerEvent: {}
+[6.524526] (-) TimerEvent: {}
+[6.624825] (-) TimerEvent: {}
+[6.725105] (-) TimerEvent: {}
+[6.825378] (-) TimerEvent: {}
+[6.925625] (-) TimerEvent: {}
+[7.025922] (-) TimerEvent: {}
+[7.126238] (-) TimerEvent: {}
+[7.226567] (-) TimerEvent: {}
+[7.279186] (yolo_msgs) StdoutLine: {'line': b'[ 85%] Built target yolo_msgs__py\n'}
+[7.303230] (yolo_msgs) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolo_msgs/msg/_detection_s.c.o\x1b[0m\n'}
+[7.303525] (yolo_msgs) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolo_msgs/msg/_bounding_box3_d_s.c.o\x1b[0m\n'}
+[7.304038] (yolo_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolo_msgs/msg/_bounding_box2_d_s.c.o\x1b[0m\n'}
+[7.304105] (yolo_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolo_msgs/msg/_key_point2_d_s.c.o\x1b[0m\n'}
+[7.304170] (yolo_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolo_msgs/msg/_key_point3_d_array_s.c.o\x1b[0m\n'}
+[7.304369] (yolo_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolo_msgs/msg/_detection_array_s.c.o\x1b[0m\n'}
+[7.304460] (yolo_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolo_msgs/msg/_key_point2_d_array_s.c.o\x1b[0m\n'}
+[7.304525] (yolo_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolo_msgs/msg/_key_point3_d_s.c.o\x1b[0m\n'}
+[7.305127] (yolo_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolo_msgs/msg/_mask_s.c.o\x1b[0m\n'}
+[7.305430] (yolo_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolo_msgs/msg/_point2_d_s.c.o\x1b[0m\n'}
+[7.306008] (yolo_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolo_msgs/msg/_vector2_s.c.o\x1b[0m\n'}
+[7.306098] (yolo_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolo_msgs/msg/_pose2_d_s.c.o\x1b[0m\n'}
+[7.306221] (yolo_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolo_msgs/srv/_set_classes_s.c.o\x1b[0m\n'}
+[7.326672] (-) TimerEvent: {}
+[7.427443] (-) TimerEvent: {}
+[7.502287] (yolo_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/yolo_msgs/libyolo_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[7.527511] (-) TimerEvent: {}
+[7.550164] (yolo_msgs) StdoutLine: {'line': b'[ 96%] Built target yolo_msgs__rosidl_generator_py\n'}
+[7.571813] (yolo_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32mBuilding C object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/yolo_msgs/_yolo_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[7.572021] (yolo_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32mBuilding C object CMakeFiles/yolo_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/yolo_msgs/_yolo_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[7.573711] (yolo_msgs) StdoutLine: {'line': b'[ 99%] \x1b[32mBuilding C object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/yolo_msgs/_yolo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[7.627623] (-) TimerEvent: {}
+[7.727896] (-) TimerEvent: {}
+[7.780682] (yolo_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/yolo_msgs/yolo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.780827] (yolo_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/yolo_msgs/yolo_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.780877] (yolo_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/yolo_msgs/yolo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.823088] (yolo_msgs) StdoutLine: {'line': b'[100%] Built target yolo_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[7.823788] (yolo_msgs) StdoutLine: {'line': b'[100%] Built target yolo_msgs__rosidl_typesupport_c__pyext\n'}
+[7.827392] (yolo_msgs) StdoutLine: {'line': b'[100%] Built target yolo_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[7.827954] (-) TimerEvent: {}
+[7.842559] (yolo_msgs) CommandEnded: {'returncode': 0}
+[7.843412] (yolo_msgs) JobProgress: {'identifier': 'yolo_msgs', 'progress': 'install'}
+[7.854070] (yolo_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kuzdx/optical_flow/build/yolo_msgs'], 'cwd': '/home/kuzdx/optical_flow/build/yolo_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', ''), ('LANGUAGE', 'ko:en'), ('USER', 'kuzdx'), ('LC_TIME', 'ko_KR.UTF-8'), ('ROS_PACKAGE_PATH', '/home/kuzdx/optical_flow/install/yolo_msgs/share'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kuzdx/optical_flow/install/yolo_msgs/lib:/usr/local/cuda-11.8/lib64:/usr/local/cuda-11.8/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kuzdx'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '0'), ('TERM_PROGRAM_VERSION', '1.108.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1262'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1583'), ('BUNDLED_DEBUGPY_PATH', '/home/kuzdx/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('_CONDA_ROOT', '/home/kuzdx/anaconda3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4067'), ('COLCON_PREFIX_PATH', '/home/kuzdx/optical_flow/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'kuzdx'), ('JOURNAL_STREAM', '8:4918'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/kuzdx/optical_flow/install/yolo_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/kuzdx/optical_flow/install/yolo_msgs/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kuzdx'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda-11.8/bin:/home/kuzdx/.local/bin:/usr/local/cuda-11.8/bin:/home/kuzdx/anaconda3/condabin:/opt/ros/humble/bin:/home/kuzdx/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/kuzdx/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/KuzDX-KAI:@/tmp/.ICE-unix/1552,unix/KuzDX-KAI:/tmp/.ICE-unix/1552'), ('INVOCATION_ID', '40c87437d4494839a881bdb11e3f44bd'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/kuzdx/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-e3e8f2cda1fe3be0.txt'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/kuzdx/.config/Code/User/workspaceStorage/6ae2719cc9342cc64d00ec195b91aa2b/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f18ea83cff.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/kuzdx/optical_flow/install/yolo_ros_ros1:/home/kuzdx/optical_flow/install/dynamic-obstacle:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/kuzdx/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', ''), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('_CONDA_EXE', '/home/kuzdx/anaconda3/bin/conda'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kuzdx/optical_flow/build/yolo_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/kuzdx/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kuzdx/optical_flow/build/yolo_ros_ros1:/home/kuzdx/optical_flow/install/yolo_ros_ros1/lib/python3.10/site-packages:/home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages:/home/kuzdx/optical_flow/build/dynamic-obstacle:/home/kuzdx/optical_flow/install/dynamic-obstacle/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('CONDA_PREFIX', ''), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/kuzdx/optical_flow/install/yolo_msgs')]), 'shell': False}
+[7.864011] (yolo_msgs) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[7.864233] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/share/ament_index/resource_index/rosidl_interfaces/yolo_msgs\n'}
+[7.864369] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs\n'}
+[7.864514] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg\n'}
+[7.864635] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/mask.h\n'}
+[7.864780] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail\n'}
+[7.864868] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__struct.h\n'}
+[7.864998] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__functions.c\n'}
+[7.865129] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__type_support.h\n'}
+[7.865289] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__struct.h\n'}
+[7.865414] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__type_support.h\n'}
+[7.865577] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__struct.h\n'}
+[7.865710] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__functions.c\n'}
+[7.865856] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__functions.h\n'}
+[7.865941] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__type_support.h\n'}
+[7.866067] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__functions.h\n'}
+[7.866265] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__type_support.h\n'}
+[7.866364] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__functions.c\n'}
+[7.866480] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__struct.h\n'}
+[7.866543] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__struct.h\n'}
+[7.866621] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__functions.h\n'}
+[7.866746] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__functions.h\n'}
+[7.866846] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__functions.c\n'}
+[7.866937] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__struct.h\n'}
+[7.867048] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__functions.c\n'}
+[7.867176] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__type_support.h\n'}
+[7.867300] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__type_support.h\n'}
+[7.867429] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__type_support.h\n'}
+[7.867546] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__struct.h\n'}
+[7.867669] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__functions.c\n'}
+[7.867793] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__functions.c\n'}
+[7.867902] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__struct.h\n'}
+[7.868024] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__type_support.h\n'}
+[7.868135] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__functions.c\n'}
+[7.868258] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__struct.h\n'}
+[7.868413] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__functions.h\n'}
+[7.868596] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__functions.h\n'}
+[7.868747] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__type_support.h\n'}
+[7.868848] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__functions.h\n'}
+[7.868966] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__type_support.h\n'}
+[7.869106] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__functions.h\n'}
+[7.869191] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__functions.c\n'}
+[7.869307] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__functions.c\n'}
+[7.869442] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__type_support.h\n'}
+[7.869566] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__struct.h\n'}
+[7.869670] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__functions.h\n'}
+[7.869782] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__functions.h\n'}
+[7.869893] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__struct.h\n'}
+[7.870000] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__struct.h\n'}
+[7.870101] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__functions.c\n'}
+[7.870210] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__functions.h\n'}
+[7.870336] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__type_support.h\n'}
+[7.870470] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__functions.c\n'}
+[7.870594] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__functions.h\n'}
+[7.870718] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/key_point2_d.h\n'}
+[7.870828] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/vector2.h\n'}
+[7.870939] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/key_point3_d_array.h\n'}
+[7.871049] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/pose2_d.h\n'}
+[7.871157] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/key_point2_d_array.h\n'}
+[7.871273] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detection_array.h\n'}
+[7.871394] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/key_point3_d.h\n'}
+[7.871509] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/point2_d.h\n'}
+[7.871619] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/bounding_box2_d.h\n'}
+[7.871735] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/bounding_box3_d.h\n'}
+[7.871843] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[7.871953] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detection.h\n'}
+[7.872061] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv\n'}
+[7.872130] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail\n'}
+[7.872210] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__functions.c\n'}
+[7.872341] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__type_support.h\n'}
+[7.872514] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__functions.h\n'}
+[7.872634] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__struct.h\n'}
+[7.872748] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/set_classes.h\n'}
+[7.872957] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/environment/library_path.sh\n'}
+[7.873103] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/environment/library_path.dsv\n'}
+[7.873294] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/lib/libyolo_msgs__rosidl_generator_c.so\n'}
+[7.873740] (yolo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/kuzdx/optical_flow/install/yolo_msgs/lib/libyolo_msgs__rosidl_generator_c.so" to ""\n'}
+[7.873822] (yolo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs\n'}
+[7.873876] (yolo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg\n'}
+[7.873927] (yolo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail\n'}
+[7.873969] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__rosidl_typesupport_fastrtps_c.h\n'}
+[7.874040] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__rosidl_typesupport_fastrtps_c.h\n'}
+[7.874167] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__rosidl_typesupport_fastrtps_c.h\n'}
+[7.874288] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__rosidl_typesupport_fastrtps_c.h\n'}
+[7.874420] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__rosidl_typesupport_fastrtps_c.h\n'}
+[7.874544] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__rosidl_typesupport_fastrtps_c.h\n'}
+[7.874664] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__rosidl_typesupport_fastrtps_c.h\n'}
+[7.874785] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__rosidl_typesupport_fastrtps_c.h\n'}
+[7.874909] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__rosidl_typesupport_fastrtps_c.h\n'}
+[7.875035] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_fastrtps_c.h\n'}
+[7.875160] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__rosidl_typesupport_fastrtps_c.h\n'}
+[7.875287] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__rosidl_typesupport_fastrtps_c.h\n'}
+[7.875423] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[7.875527] (yolo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv\n'}
+[7.875602] (yolo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail\n'}
+[7.875660] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__rosidl_typesupport_fastrtps_c.h\n'}
+[7.875768] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[7.876207] (yolo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/kuzdx/optical_flow/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[7.876265] (yolo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs\n'}
+[7.876339] (yolo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg\n'}
+[7.876407] (yolo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail\n'}
+[7.876469] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__type_support.c\n'}
+[7.876540] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__rosidl_typesupport_introspection_c.h\n'}
+[7.876645] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__type_support.c\n'}
+[7.876770] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__rosidl_typesupport_introspection_c.h\n'}
+[7.876893] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__rosidl_typesupport_introspection_c.h\n'}
+[7.877014] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__type_support.c\n'}
+[7.877136] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__rosidl_typesupport_introspection_c.h\n'}
+[7.877258] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__type_support.c\n'}
+[7.877412] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__type_support.c\n'}
+[7.877551] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__rosidl_typesupport_introspection_c.h\n'}
+[7.877679] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__rosidl_typesupport_introspection_c.h\n'}
+[7.877797] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__type_support.c\n'}
+[7.877926] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__rosidl_typesupport_introspection_c.h\n'}
+[7.878051] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__rosidl_typesupport_introspection_c.h\n'}
+[7.878173] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__type_support.c\n'}
+[7.878300] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_introspection_c.h\n'}
+[7.878432] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__type_support.c\n'}
+[7.878563] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__type_support.c\n'}
+[7.878704] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__rosidl_typesupport_introspection_c.h\n'}
+[7.878827] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__rosidl_typesupport_introspection_c.h\n'}
+[7.878952] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__rosidl_typesupport_introspection_c.h\n'}
+[7.879079] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__type_support.c\n'}
+[7.879209] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__type_support.c\n'}
+[7.879346] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__type_support.c\n'}
+[7.879483] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[7.879594] (yolo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv\n'}
+[7.879671] (yolo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail\n'}
+[7.879717] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__rosidl_typesupport_introspection_c.h\n'}
+[7.879790] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__type_support.c\n'}
+[7.879959] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_introspection_c.so\n'}
+[7.880375] (yolo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/kuzdx/optical_flow/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[7.880443] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_c.so\n'}
+[7.880790] (yolo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/kuzdx/optical_flow/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_c.so" to ""\n'}
+[7.880853] (yolo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs\n'}
+[7.880926] (yolo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg\n'}
+[7.880971] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/point2_d.hpp\n'}
+[7.881031] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/key_point3_d.hpp\n'}
+[7.881140] (yolo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail\n'}
+[7.881208] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__type_support.hpp\n'}
+[7.881336] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__struct.hpp\n'}
+[7.881479] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__builder.hpp\n'}
+[7.881607] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__type_support.hpp\n'}
+[7.881735] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__traits.hpp\n'}
+[7.881862] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__type_support.hpp\n'}
+[7.881996] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__struct.hpp\n'}
+[7.882129] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__type_support.hpp\n'}
+[7.882258] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__builder.hpp\n'}
+[7.882394] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__builder.hpp\n'}
+[7.882527] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__type_support.hpp\n'}
+[7.882655] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__type_support.hpp\n'}
+[7.882782] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__traits.hpp\n'}
+[7.882913] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__struct.hpp\n'}
+[7.883043] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__builder.hpp\n'}
+[7.883170] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__traits.hpp\n'}
+[7.883304] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__type_support.hpp\n'}
+[7.883445] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__traits.hpp\n'}
+[7.883617] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__type_support.hpp\n'}
+[7.883741] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__builder.hpp\n'}
+[7.883865] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__traits.hpp\n'}
+[7.883988] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__struct.hpp\n'}
+[7.884124] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__builder.hpp\n'}
+[7.884248] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__builder.hpp\n'}
+[7.884385] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__builder.hpp\n'}
+[7.884520] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__struct.hpp\n'}
+[7.884645] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__struct.hpp\n'}
+[7.884774] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__traits.hpp\n'}
+[7.884896] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__traits.hpp\n'}
+[7.885020] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__struct.hpp\n'}
+[7.885144] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__traits.hpp\n'}
+[7.885268] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__struct.hpp\n'}
+[7.885406] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__traits.hpp\n'}
+[7.885529] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__type_support.hpp\n'}
+[7.885655] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__traits.hpp\n'}
+[7.885787] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__type_support.hpp\n'}
+[7.885920] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__builder.hpp\n'}
+[7.886038] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__traits.hpp\n'}
+[7.886164] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__struct.hpp\n'}
+[7.886295] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__builder.hpp\n'}
+[7.886438] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__type_support.hpp\n'}
+[7.886566] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__struct.hpp\n'}
+[7.886694] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__type_support.hpp\n'}
+[7.886822] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__struct.hpp\n'}
+[7.886953] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__builder.hpp\n'}
+[7.887078] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__struct.hpp\n'}
+[7.887207] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__traits.hpp\n'}
+[7.887334] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__builder.hpp\n'}
+[7.887473] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/key_point2_d.hpp\n'}
+[7.887581] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/bounding_box2_d.hpp\n'}
+[7.887693] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/bounding_box3_d.hpp\n'}
+[7.887809] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[7.887922] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/pose2_d.hpp\n'}
+[7.888043] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/vector2.hpp\n'}
+[7.888159] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/key_point2_d_array.hpp\n'}
+[7.888274] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detection_array.hpp\n'}
+[7.888428] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/key_point3_d_array.hpp\n'}
+[7.888548] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detection.hpp\n'}
+[7.888662] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/mask.hpp\n'}
+[7.888769] (yolo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv\n'}
+[7.888827] (yolo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail\n'}
+[7.888883] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__traits.hpp\n'}
+[7.888969] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__struct.hpp\n'}
+[7.889091] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__type_support.hpp\n'}
+[7.889204] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__builder.hpp\n'}
+[7.889323] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/set_classes.hpp\n'}
+[7.889474] (yolo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs\n'}
+[7.889539] (yolo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg\n'}
+[7.889614] (yolo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail\n'}
+[7.889672] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.889734] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.889839] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/dds_fastrtps\n'}
+[7.889944] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.890074] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.890197] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.890321] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.890468] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.890594] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.890720] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.890850] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.890978] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.891106] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.891241] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[7.891346] (yolo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv\n'}
+[7.891415] (yolo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail\n'}
+[7.891483] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/dds_fastrtps\n'}
+[7.891550] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.891674] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[7.892160] (yolo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/kuzdx/optical_flow/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[7.892230] (yolo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs\n'}
+[7.892312] (yolo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg\n'}
+[7.892373] (yolo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail\n'}
+[7.892425] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.892486] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__type_support.cpp\n'}
+[7.892616] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__type_support.cpp\n'}
+[7.892748] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.892874] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__type_support.cpp\n'}
+[7.893004] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.893134] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__type_support.cpp\n'}
+[7.893267] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.893401] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.893531] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.893658] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__type_support.cpp\n'}
+[7.893795] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.893926] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.894058] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__type_support.cpp\n'}
+[7.894196] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__type_support.cpp\n'}
+[7.894330] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__type_support.cpp\n'}
+[7.894471] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__type_support.cpp\n'}
+[7.894604] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__type_support.cpp\n'}
+[7.894739] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__type_support.cpp\n'}
+[7.894873] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.895004] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.895133] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.895262] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__type_support.cpp\n'}
+[7.895414] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.895575] (yolo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv\n'}
+[7.895648] (yolo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail\n'}
+[7.895692] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.895767] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__type_support.cpp\n'}
+[7.895932] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[7.896416] (yolo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/kuzdx/optical_flow/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[7.896482] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_cpp.so\n'}
+[7.896834] (yolo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/kuzdx/optical_flow/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[7.896953] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/environment/pythonpath.sh\n'}
+[7.897032] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/environment/pythonpath.dsv\n'}
+[7.897176] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs-4.2.0-py3.10.egg-info\n'}
+[7.897322] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs-4.2.0-py3.10.egg-info/top_level.txt\n'}
+[7.897485] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs-4.2.0-py3.10.egg-info/PKG-INFO\n'}
+[7.897605] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs-4.2.0-py3.10.egg-info/SOURCES.txt\n'}
+[7.897717] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs-4.2.0-py3.10.egg-info/dependency_links.txt\n'}
+[7.897865] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs\n'}
+[7.897950] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/yolo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.898113] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg\n'}
+[7.898202] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_bounding_box2_d_s.c\n'}
+[7.898323] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_detection.py\n'}
+[7.898466] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_key_point3_d.py\n'}
+[7.898585] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_bounding_box2_d.py\n'}
+[7.898704] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_bounding_box3_d.py\n'}
+[7.898824] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_vector2_s.c\n'}
+[7.898938] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_key_point2_d_s.c\n'}
+[7.899056] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/__init__.py\n'}
+[7.899177] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_pose2_d_s.c\n'}
+[7.899296] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_point2_d.py\n'}
+[7.899427] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_bounding_box3_d_s.c\n'}
+[7.899549] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_detection_array_s.c\n'}
+[7.899677] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_detection_array.py\n'}
+[7.899794] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_key_point2_d_array.py\n'}
+[7.899915] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_vector2.py\n'}
+[7.900037] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_mask.py\n'}
+[7.900164] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_key_point2_d_array_s.c\n'}
+[7.900286] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_key_point3_d_s.c\n'}
+[7.900421] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_key_point2_d.py\n'}
+[7.900552] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_key_point3_d_array.py\n'}
+[7.900673] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_key_point3_d_array_s.c\n'}
+[7.900788] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_point2_d_s.c\n'}
+[7.900905] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_pose2_d.py\n'}
+[7.901027] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_mask_s.c\n'}
+[7.901150] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_detection_s.c\n'}
+[7.901299] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/yolo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.901473] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/__init__.py\n'}
+[7.901575] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/srv\n'}
+[7.901652] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/srv/_set_classes.py\n'}
+[7.901786] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/srv/_set_classes_s.c\n'}
+[7.901901] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/srv/__init__.py\n'}
+[7.902016] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/_yolo_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[7.902201] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/yolo_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.902364] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/_yolo_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[7.902567] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/_yolo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[7.902751] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/libyolo_msgs__rosidl_generator_py.so\n'}
+[7.928038] (-) TimerEvent: {}
+[7.942180] (yolo_msgs) StdoutLine: {'line': b"Listing '/home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs'...\n"}
+[7.942329] (yolo_msgs) StdoutLine: {'line': b"Compiling '/home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/__init__.py'...\n"}
+[7.942414] (yolo_msgs) StdoutLine: {'line': b"Listing '/home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg'...\n"}
+[7.942480] (yolo_msgs) StdoutLine: {'line': b"Compiling '/home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/__init__.py'...\n"}
+[7.942551] (yolo_msgs) StdoutLine: {'line': b"Compiling '/home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_bounding_box2_d.py'...\n"}
+[7.942617] (yolo_msgs) StdoutLine: {'line': b"Compiling '/home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_bounding_box3_d.py'...\n"}
+[7.942678] (yolo_msgs) StdoutLine: {'line': b"Compiling '/home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_detection.py'...\n"}
+[7.942740] (yolo_msgs) StdoutLine: {'line': b"Compiling '/home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_detection_array.py'...\n"}
+[7.942803] (yolo_msgs) StdoutLine: {'line': b"Compiling '/home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_key_point2_d.py'...\n"}
+[7.942866] (yolo_msgs) StdoutLine: {'line': b"Compiling '/home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_key_point2_d_array.py'...\n"}
+[7.942930] (yolo_msgs) StdoutLine: {'line': b"Compiling '/home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_key_point3_d.py'...\n"}
+[7.942996] (yolo_msgs) StdoutLine: {'line': b"Compiling '/home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_key_point3_d_array.py'...\n"}
+[7.943061] (yolo_msgs) StdoutLine: {'line': b"Compiling '/home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_mask.py'...\n"}
+[7.943123] (yolo_msgs) StdoutLine: {'line': b"Compiling '/home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_point2_d.py'...\n"}
+[7.943188] (yolo_msgs) StdoutLine: {'line': b"Compiling '/home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_pose2_d.py'...\n"}
+[7.943252] (yolo_msgs) StdoutLine: {'line': b"Compiling '/home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_vector2.py'...\n"}
+[7.943324] (yolo_msgs) StdoutLine: {'line': b"Listing '/home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/srv'...\n"}
+[7.943402] (yolo_msgs) StdoutLine: {'line': b"Compiling '/home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/srv/__init__.py'...\n"}
+[7.943469] (yolo_msgs) StdoutLine: {'line': b"Compiling '/home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/srv/_set_classes.py'...\n"}
+[7.946627] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/yolo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.947274] (yolo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/yolo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[7.947622] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/yolo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.948270] (yolo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/yolo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[7.948613] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/yolo_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.949245] (yolo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/yolo_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[7.949378] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/lib/libyolo_msgs__rosidl_generator_py.so\n'}
+[7.950097] (yolo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/kuzdx/optical_flow/install/yolo_msgs/lib/libyolo_msgs__rosidl_generator_py.so" to ""\n'}
+[7.950258] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/msg/BoundingBox2D.idl\n'}
+[7.950427] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/msg/BoundingBox3D.idl\n'}
+[7.950578] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/msg/Detection.idl\n'}
+[7.950734] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/msg/DetectionArray.idl\n'}
+[7.950878] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/msg/KeyPoint2D.idl\n'}
+[7.951031] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/msg/KeyPoint2DArray.idl\n'}
+[7.951188] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/msg/KeyPoint3D.idl\n'}
+[7.951343] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/msg/KeyPoint3DArray.idl\n'}
+[7.951507] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/msg/Mask.idl\n'}
+[7.951660] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/msg/Point2D.idl\n'}
+[7.951812] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/msg/Pose2D.idl\n'}
+[7.951974] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/msg/Vector2.idl\n'}
+[7.952155] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/srv/SetClasses.idl\n'}
+[7.952314] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/msg/BoundingBox2D.msg\n'}
+[7.952473] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/msg/BoundingBox3D.msg\n'}
+[7.952628] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/msg/Detection.msg\n'}
+[7.952770] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/msg/DetectionArray.msg\n'}
+[7.952922] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/msg/KeyPoint2D.msg\n'}
+[7.953072] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/msg/KeyPoint2DArray.msg\n'}
+[7.953238] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/msg/KeyPoint3D.msg\n'}
+[7.953387] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/msg/KeyPoint3DArray.msg\n'}
+[7.953551] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/msg/Mask.msg\n'}
+[7.953704] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/msg/Point2D.msg\n'}
+[7.953856] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/msg/Pose2D.msg\n'}
+[7.954000] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/msg/Vector2.msg\n'}
+[7.954159] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/srv/SetClasses.srv\n'}
+[7.954308] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/srv/SetClasses_Request.msg\n'}
+[7.954477] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/srv/SetClasses_Response.msg\n'}
+[7.954707] (yolo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/msg\n'}
+[7.954869] (yolo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/msg/Vector2.msg\n'}
+[7.955009] (yolo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/msg/KeyPoint3DArray.msg\n'}
+[7.955100] (yolo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/msg/KeyPoint2DArray.msg\n'}
+[7.955197] (yolo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/msg/BoundingBox3D.msg\n'}
+[7.955286] (yolo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/msg/Detection.msg\n'}
+[7.955378] (yolo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/msg/Mask.msg\n'}
+[7.955492] (yolo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/msg/DetectionArray.msg\n'}
+[7.955577] (yolo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/msg/KeyPoint3D.msg\n'}
+[7.955681] (yolo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/msg/Point2D.msg\n'}
+[7.955764] (yolo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/msg/BoundingBox2D.msg\n'}
+[7.955853] (yolo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/msg/KeyPoint2D.msg\n'}
+[7.955934] (yolo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/msg/Pose2D.msg\n'}
+[7.956015] (yolo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/srv\n'}
+[7.956097] (yolo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/srv/SetClasses.srv\n'}
+[7.956178] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/share/ament_index/resource_index/package_run_dependencies/yolo_msgs\n'}
+[7.956264] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/share/ament_index/resource_index/parent_prefix_path/yolo_msgs\n'}
+[7.956347] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/environment/ament_prefix_path.sh\n'}
+[7.956481] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/environment/ament_prefix_path.dsv\n'}
+[7.956582] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/environment/path.sh\n'}
+[7.956659] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/environment/path.dsv\n'}
+[7.956743] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/local_setup.bash\n'}
+[7.956826] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/local_setup.sh\n'}
+[7.956908] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/local_setup.zsh\n'}
+[7.957034] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/local_setup.dsv\n'}
+[7.957126] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/package.dsv\n'}
+[7.957187] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/share/ament_index/resource_index/packages/yolo_msgs\n'}
+[7.957255] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/cmake/export_yolo_msgs__rosidl_generator_cExport.cmake\n'}
+[7.957425] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/cmake/export_yolo_msgs__rosidl_generator_cExport-release.cmake\n'}
+[7.957591] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/cmake/export_yolo_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[7.957761] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/cmake/export_yolo_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake\n'}
+[7.957930] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/cmake/yolo_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[7.958100] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/cmake/yolo_msgs__rosidl_typesupport_introspection_cExport-release.cmake\n'}
+[7.958266] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/cmake/yolo_msgs__rosidl_typesupport_cExport.cmake\n'}
+[7.958449] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/cmake/yolo_msgs__rosidl_typesupport_cExport-release.cmake\n'}
+[7.958617] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/cmake/export_yolo_msgs__rosidl_generator_cppExport.cmake\n'}
+[7.958789] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/cmake/export_yolo_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[7.958958] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/cmake/export_yolo_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake\n'}
+[7.959128] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/cmake/yolo_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[7.959294] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/cmake/yolo_msgs__rosidl_typesupport_introspection_cppExport-release.cmake\n'}
+[7.959473] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/cmake/yolo_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[7.959635] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/cmake/yolo_msgs__rosidl_typesupport_cppExport-release.cmake\n'}
+[7.959811] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/cmake/export_yolo_msgs__rosidl_generator_pyExport.cmake\n'}
+[7.959968] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/cmake/export_yolo_msgs__rosidl_generator_pyExport-release.cmake\n'}
+[7.960140] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[7.960296] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.960481] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.960632] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[7.960796] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[7.960950] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[7.961124] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[7.961277] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/cmake/yolo_msgsConfig.cmake\n'}
+[7.961413] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/cmake/yolo_msgsConfig-version.cmake\n'}
+[7.961571] (yolo_msgs) StdoutLine: {'line': b'-- Installing: /home/kuzdx/optical_flow/install/yolo_msgs/share/yolo_msgs/package.xml\n'}
+[7.963904] (yolo_msgs) CommandEnded: {'returncode': 0}
+[7.976460] (yolo_msgs) JobEnded: {'identifier': 'yolo_msgs', 'rc': 0}
+[7.977092] (yolo_ros_ros1) JobStarted: {'identifier': 'yolo_ros_ros1'}
+[8.028129] (-) TimerEvent: {}
+[8.128375] (-) TimerEvent: {}
+[8.228885] (-) TimerEvent: {}
+[8.329164] (-) TimerEvent: {}
+[8.429412] (-) TimerEvent: {}
+[8.529650] (-) TimerEvent: {}
+[8.536341] (yolo_ros_ros1) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/kuzdx/optical_flow/build/yolo_ros_ros1/build', '--no-deps', 'symlink_data'], 'cwd': '/home/kuzdx/optical_flow/build/yolo_ros_ros1', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '', 'LANGUAGE': 'ko:en', 'USER': 'kuzdx', 'LC_TIME': 'ko_KR.UTF-8', 'ROS_PACKAGE_PATH': '/home/kuzdx/optical_flow/install/yolo_msgs/share', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/kuzdx/optical_flow/install/yolo_msgs/lib:/usr/local/cuda-11.8/lib64:/usr/local/cuda-11.8/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/kuzdx', 'CHROME_DESKTOP': 'code.desktop', 'CONDA_SHLVL': '0', 'TERM_PROGRAM_VERSION': '1.108.1', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'ko_KR.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1262', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '1583', 'BUNDLED_DEBUGPY_PATH': '/home/kuzdx/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', '_CONDA_ROOT': '/home/kuzdx/anaconda3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4067', 'COLCON_PREFIX_PATH': '/home/kuzdx/optical_flow/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'kuzdx', 'JOURNAL_STREAM': '8:4918', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/kuzdx/optical_flow/install/yolo_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/kuzdx/optical_flow/install/yolo_msgs/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kuzdx', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'FC_FONTATIONS': '1', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/usr/local/cuda-11.8/bin:/home/kuzdx/.local/bin:/usr/local/cuda-11.8/bin:/home/kuzdx/anaconda3/condabin:/opt/ros/humble/bin:/home/kuzdx/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/kuzdx/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/KuzDX-KAI:@/tmp/.ICE-unix/1552,unix/KuzDX-KAI:/tmp/.ICE-unix/1552', 'INVOCATION_ID': '40c87437d4494839a881bdb11e3f44bd', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/kuzdx/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-e3e8f2cda1fe3be0.txt', 'LANG': 'ko_KR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'PYTHONSTARTUP': '/home/kuzdx/.config/Code/User/workspaceStorage/6ae2719cc9342cc64d00ec195b91aa2b/ms-python.python/pythonrc.py', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-f18ea83cff.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/kuzdx/optical_flow/install/yolo_ros_ros1:/home/kuzdx/optical_flow/install/dynamic-obstacle:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/kuzdx/anaconda3/bin/python', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': '', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', '_CONDA_EXE': '/home/kuzdx/anaconda3/bin/conda', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kuzdx/optical_flow/build/yolo_ros_ros1', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/kuzdx/anaconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kuzdx/optical_flow/build/yolo_ros_ros1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kuzdx/optical_flow/install/yolo_ros_ros1/lib/python3.10/site-packages:/home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages:/home/kuzdx/optical_flow/build/yolo_ros_ros1:/home/kuzdx/optical_flow/install/yolo_ros_ros1/lib/python3.10/site-packages:/home/kuzdx/optical_flow/build/dynamic-obstacle:/home/kuzdx/optical_flow/install/dynamic-obstacle/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'CONDA_PREFIX': '', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/kuzdx/optical_flow/install/yolo_msgs'}, 'shell': False}
+[8.629734] (-) TimerEvent: {}
+[8.729999] (-) TimerEvent: {}
+[8.775852] (yolo_ros_ros1) StdoutLine: {'line': b'running develop\n'}
+[8.830100] (-) TimerEvent: {}
+[8.929800] (yolo_ros_ros1) StdoutLine: {'line': b'running egg_info\n'}
+[8.929971] (yolo_ros_ros1) StdoutLine: {'line': b'creating yolo_ros_ros1.egg-info\n'}
+[8.930040] (yolo_ros_ros1) StdoutLine: {'line': b'writing yolo_ros_ros1.egg-info/PKG-INFO\n'}
+[8.930118] (-) TimerEvent: {}
+[8.930210] (yolo_ros_ros1) StdoutLine: {'line': b'writing dependency_links to yolo_ros_ros1.egg-info/dependency_links.txt\n'}
+[8.930328] (yolo_ros_ros1) StdoutLine: {'line': b'writing entry points to yolo_ros_ros1.egg-info/entry_points.txt\n'}
+[8.930415] (yolo_ros_ros1) StdoutLine: {'line': b'writing requirements to yolo_ros_ros1.egg-info/requires.txt\n'}
+[8.930479] (yolo_ros_ros1) StdoutLine: {'line': b'writing top-level names to yolo_ros_ros1.egg-info/top_level.txt\n'}
+[8.930567] (yolo_ros_ros1) StdoutLine: {'line': b"writing manifest file 'yolo_ros_ros1.egg-info/SOURCES.txt'\n"}
+[8.931628] (yolo_ros_ros1) StdoutLine: {'line': b"reading manifest file 'yolo_ros_ros1.egg-info/SOURCES.txt'\n"}
+[8.932046] (yolo_ros_ros1) StdoutLine: {'line': b"writing manifest file 'yolo_ros_ros1.egg-info/SOURCES.txt'\n"}
+[8.933025] (yolo_ros_ros1) StdoutLine: {'line': b'running build_ext\n'}
+[8.933159] (yolo_ros_ros1) StdoutLine: {'line': b'Creating /home/kuzdx/optical_flow/install/yolo_ros_ros1/lib/python3.10/site-packages/yolo-ros-ros1.egg-link (link to .)\n'}
+[8.933621] (yolo_ros_ros1) StdoutLine: {'line': b'Installing yolo_track_node script to /home/kuzdx/optical_flow/install/yolo_ros_ros1/lib/yolo_ros_ros1\n'}
+[8.933786] (yolo_ros_ros1) StdoutLine: {'line': b'\n'}
+[8.933863] (yolo_ros_ros1) StdoutLine: {'line': b'Installed /home/kuzdx/optical_flow/build/yolo_ros_ros1\n'}
+[8.933980] (yolo_ros_ros1) StdoutLine: {'line': b'running symlink_data\n'}
+[8.934057] (yolo_ros_ros1) StdoutLine: {'line': b'creating /home/kuzdx/optical_flow/install/yolo_ros_ros1/share/ament_index\n'}
+[8.934131] (yolo_ros_ros1) StdoutLine: {'line': b'creating /home/kuzdx/optical_flow/install/yolo_ros_ros1/share/ament_index/resource_index\n'}
+[8.934204] (yolo_ros_ros1) StdoutLine: {'line': b'creating /home/kuzdx/optical_flow/install/yolo_ros_ros1/share/ament_index/resource_index/packages\n'}
+[8.934305] (yolo_ros_ros1) StdoutLine: {'line': b'symbolically linking /home/kuzdx/optical_flow/build/yolo_ros_ros1/resource/yolo_ros_ros1 -> /home/kuzdx/optical_flow/install/yolo_ros_ros1/share/ament_index/resource_index/packages\n'}
+[8.934388] (yolo_ros_ros1) StdoutLine: {'line': b'symbolically linking /home/kuzdx/optical_flow/build/yolo_ros_ros1/package.xml -> /home/kuzdx/optical_flow/install/yolo_ros_ros1/share/yolo_ros_ros1\n'}
+[8.958265] (yolo_ros_ros1) CommandEnded: {'returncode': 0}
+[8.963918] (yolo_ros_ros1) JobEnded: {'identifier': 'yolo_ros_ros1', 'rc': 0}
+[8.964476] (-) EventReactorShutdown: {}

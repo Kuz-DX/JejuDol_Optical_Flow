@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+resource/yolo_ros_ros1
+scripts/__init__.py
+scripts/yolo_track_node.py
+yolo_ros_ros1.egg-info/PKG-INFO
+yolo_ros_ros1.egg-info/SOURCES.txt
+yolo_ros_ros1.egg-info/dependency_links.txt
+yolo_ros_ros1.egg-info/entry_points.txt
+yolo_ros_ros1.egg-info/requires.txt
+yolo_ros_ros1.egg-info/top_level.txt
+yolo_ros_ros1.egg-info/zip-safe

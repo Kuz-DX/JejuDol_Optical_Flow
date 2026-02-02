@@ -1,0 +1,23 @@
+[0.559s] Invoking command in '/home/kuzdx/optical_flow/build/dynamic-obstacle': PYTHONPATH=/home/kuzdx/optical_flow/build/dynamic-obstacle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kuzdx/optical_flow/install/dynamic-obstacle/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kuzdx/optical_flow/build/dynamic-obstacle/build --no-deps symlink_data
+[0.784s] running develop
+[0.935s] running egg_info
+[0.935s] creating dynamic_obstacle.egg-info
+[0.935s] writing dynamic_obstacle.egg-info/PKG-INFO
+[0.936s] writing dependency_links to dynamic_obstacle.egg-info/dependency_links.txt
+[0.936s] writing entry points to dynamic_obstacle.egg-info/entry_points.txt
+[0.936s] writing requirements to dynamic_obstacle.egg-info/requires.txt
+[0.936s] writing top-level names to dynamic_obstacle.egg-info/top_level.txt
+[0.936s] writing manifest file 'dynamic_obstacle.egg-info/SOURCES.txt'
+[0.937s] reading manifest file 'dynamic_obstacle.egg-info/SOURCES.txt'
+[0.937s] writing manifest file 'dynamic_obstacle.egg-info/SOURCES.txt'
+[0.938s] running build_ext
+[0.938s] Creating /home/kuzdx/optical_flow/install/dynamic-obstacle/lib/python3.10/site-packages/dynamic-obstacle.egg-link (link to .)
+[0.939s] 
+[0.939s] Installed /home/kuzdx/optical_flow/build/dynamic-obstacle
+[0.939s] running symlink_data
+[0.939s] creating /home/kuzdx/optical_flow/install/dynamic-obstacle/share/ament_index
+[0.939s] creating /home/kuzdx/optical_flow/install/dynamic-obstacle/share/ament_index/resource_index
+[0.939s] creating /home/kuzdx/optical_flow/install/dynamic-obstacle/share/ament_index/resource_index/packages
+[0.940s] symbolically linking /home/kuzdx/optical_flow/build/dynamic-obstacle/resource/dynamic-obstacle -> /home/kuzdx/optical_flow/install/dynamic-obstacle/share/ament_index/resource_index/packages
+[0.940s] symbolically linking /home/kuzdx/optical_flow/build/dynamic-obstacle/package.xml -> /home/kuzdx/optical_flow/install/dynamic-obstacle/share/dynamic-obstacle
+[0.961s] Invoked command in '/home/kuzdx/optical_flow/build/dynamic-obstacle' returned '0': PYTHONPATH=/home/kuzdx/optical_flow/build/dynamic-obstacle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kuzdx/optical_flow/install/dynamic-obstacle/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kuzdx/optical_flow/build/dynamic-obstacle/build --no-deps symlink_data

@@ -1,0 +1,21 @@
+running develop
+running egg_info
+creating dynamic_obstacle.egg-info
+writing dynamic_obstacle.egg-info/PKG-INFO
+writing dependency_links to dynamic_obstacle.egg-info/dependency_links.txt
+writing entry points to dynamic_obstacle.egg-info/entry_points.txt
+writing requirements to dynamic_obstacle.egg-info/requires.txt
+writing top-level names to dynamic_obstacle.egg-info/top_level.txt
+writing manifest file 'dynamic_obstacle.egg-info/SOURCES.txt'
+reading manifest file 'dynamic_obstacle.egg-info/SOURCES.txt'
+writing manifest file 'dynamic_obstacle.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/kuzdx/optical_flow/install/dynamic-obstacle/lib/python3.10/site-packages/dynamic-obstacle.egg-link (link to .)
+
+Installed /home/kuzdx/optical_flow/build/dynamic-obstacle
+running symlink_data
+creating /home/kuzdx/optical_flow/install/dynamic-obstacle/share/ament_index
+creating /home/kuzdx/optical_flow/install/dynamic-obstacle/share/ament_index/resource_index
+creating /home/kuzdx/optical_flow/install/dynamic-obstacle/share/ament_index/resource_index/packages
+symbolically linking /home/kuzdx/optical_flow/build/dynamic-obstacle/resource/dynamic-obstacle -> /home/kuzdx/optical_flow/install/dynamic-obstacle/share/ament_index/resource_index/packages
+symbolically linking /home/kuzdx/optical_flow/build/dynamic-obstacle/package.xml -> /home/kuzdx/optical_flow/install/dynamic-obstacle/share/dynamic-obstacle

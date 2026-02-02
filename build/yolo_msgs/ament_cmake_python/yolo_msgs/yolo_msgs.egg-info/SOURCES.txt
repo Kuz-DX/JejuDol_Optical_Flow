@@ -1,0 +1,6 @@
+setup.py
+yolo_msgs/__init__.py
+yolo_msgs.egg-info/PKG-INFO
+yolo_msgs.egg-info/SOURCES.txt
+yolo_msgs.egg-info/dependency_links.txt
+yolo_msgs.egg-info/top_level.txt

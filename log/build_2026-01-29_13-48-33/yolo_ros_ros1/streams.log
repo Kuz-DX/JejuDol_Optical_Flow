@@ -1,0 +1,24 @@
+[0.561s] Invoking command in '/home/kuzdx/optical_flow/build/yolo_ros_ros1': PYTHONPATH=/home/kuzdx/optical_flow/build/yolo_ros_ros1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kuzdx/optical_flow/install/yolo_ros_ros1/lib/python3.10/site-packages:/home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages:/home/kuzdx/optical_flow/build/yolo_ros_ros1:/home/kuzdx/optical_flow/install/yolo_ros_ros1/lib/python3.10/site-packages:/home/kuzdx/optical_flow/build/dynamic-obstacle:/home/kuzdx/optical_flow/install/dynamic-obstacle/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kuzdx/optical_flow/build/yolo_ros_ros1/build --no-deps symlink_data
+[0.799s] running develop
+[0.953s] running egg_info
+[0.953s] creating yolo_ros_ros1.egg-info
+[0.953s] writing yolo_ros_ros1.egg-info/PKG-INFO
+[0.953s] writing dependency_links to yolo_ros_ros1.egg-info/dependency_links.txt
+[0.953s] writing entry points to yolo_ros_ros1.egg-info/entry_points.txt
+[0.953s] writing requirements to yolo_ros_ros1.egg-info/requires.txt
+[0.953s] writing top-level names to yolo_ros_ros1.egg-info/top_level.txt
+[0.954s] writing manifest file 'yolo_ros_ros1.egg-info/SOURCES.txt'
+[0.955s] reading manifest file 'yolo_ros_ros1.egg-info/SOURCES.txt'
+[0.955s] writing manifest file 'yolo_ros_ros1.egg-info/SOURCES.txt'
+[0.956s] running build_ext
+[0.956s] Creating /home/kuzdx/optical_flow/install/yolo_ros_ros1/lib/python3.10/site-packages/yolo-ros-ros1.egg-link (link to .)
+[0.957s] Installing yolo_track_node script to /home/kuzdx/optical_flow/install/yolo_ros_ros1/lib/yolo_ros_ros1
+[0.957s] 
+[0.957s] Installed /home/kuzdx/optical_flow/build/yolo_ros_ros1
+[0.957s] running symlink_data
+[0.957s] creating /home/kuzdx/optical_flow/install/yolo_ros_ros1/share/ament_index
+[0.957s] creating /home/kuzdx/optical_flow/install/yolo_ros_ros1/share/ament_index/resource_index
+[0.957s] creating /home/kuzdx/optical_flow/install/yolo_ros_ros1/share/ament_index/resource_index/packages
+[0.957s] symbolically linking /home/kuzdx/optical_flow/build/yolo_ros_ros1/resource/yolo_ros_ros1 -> /home/kuzdx/optical_flow/install/yolo_ros_ros1/share/ament_index/resource_index/packages
+[0.957s] symbolically linking /home/kuzdx/optical_flow/build/yolo_ros_ros1/package.xml -> /home/kuzdx/optical_flow/install/yolo_ros_ros1/share/yolo_ros_ros1
+[0.982s] Invoked command in '/home/kuzdx/optical_flow/build/yolo_ros_ros1' returned '0': PYTHONPATH=/home/kuzdx/optical_flow/build/yolo_ros_ros1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kuzdx/optical_flow/install/yolo_ros_ros1/lib/python3.10/site-packages:/home/kuzdx/optical_flow/install/yolo_msgs/local/lib/python3.10/dist-packages:/home/kuzdx/optical_flow/build/yolo_ros_ros1:/home/kuzdx/optical_flow/install/yolo_ros_ros1/lib/python3.10/site-packages:/home/kuzdx/optical_flow/build/dynamic-obstacle:/home/kuzdx/optical_flow/install/dynamic-obstacle/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kuzdx/optical_flow/build/yolo_ros_ros1/build --no-deps symlink_data

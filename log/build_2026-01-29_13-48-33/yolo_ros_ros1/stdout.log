@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating yolo_ros_ros1.egg-info
+writing yolo_ros_ros1.egg-info/PKG-INFO
+writing dependency_links to yolo_ros_ros1.egg-info/dependency_links.txt
+writing entry points to yolo_ros_ros1.egg-info/entry_points.txt
+writing requirements to yolo_ros_ros1.egg-info/requires.txt
+writing top-level names to yolo_ros_ros1.egg-info/top_level.txt
+writing manifest file 'yolo_ros_ros1.egg-info/SOURCES.txt'
+reading manifest file 'yolo_ros_ros1.egg-info/SOURCES.txt'
+writing manifest file 'yolo_ros_ros1.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/kuzdx/optical_flow/install/yolo_ros_ros1/lib/python3.10/site-packages/yolo-ros-ros1.egg-link (link to .)
+Installing yolo_track_node script to /home/kuzdx/optical_flow/install/yolo_ros_ros1/lib/yolo_ros_ros1
+
+Installed /home/kuzdx/optical_flow/build/yolo_ros_ros1
+running symlink_data
+creating /home/kuzdx/optical_flow/install/yolo_ros_ros1/share/ament_index
+creating /home/kuzdx/optical_flow/install/yolo_ros_ros1/share/ament_index/resource_index
+creating /home/kuzdx/optical_flow/install/yolo_ros_ros1/share/ament_index/resource_index/packages
+symbolically linking /home/kuzdx/optical_flow/build/yolo_ros_ros1/resource/yolo_ros_ros1 -> /home/kuzdx/optical_flow/install/yolo_ros_ros1/share/ament_index/resource_index/packages
+symbolically linking /home/kuzdx/optical_flow/build/yolo_ros_ros1/package.xml -> /home/kuzdx/optical_flow/install/yolo_ros_ros1/share/yolo_ros_ros1

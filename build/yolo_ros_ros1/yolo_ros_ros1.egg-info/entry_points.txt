@@ -1,0 +1,3 @@
+[console_scripts]
+yolo_track_node = scripts.yolo_track_node:main
+

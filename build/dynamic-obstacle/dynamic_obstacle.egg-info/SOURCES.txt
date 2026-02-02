@@ -1,0 +1,12 @@
+package.xml
+setup.cfg
+setup.py
+dynamic-obstacle/__init__.py
+dynamic_obstacle.egg-info/PKG-INFO
+dynamic_obstacle.egg-info/SOURCES.txt
+dynamic_obstacle.egg-info/dependency_links.txt
+dynamic_obstacle.egg-info/entry_points.txt
+dynamic_obstacle.egg-info/requires.txt
+dynamic_obstacle.egg-info/top_level.txt
+dynamic_obstacle.egg-info/zip-safe
+resource/dynamic-obstacle
